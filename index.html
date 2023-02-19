@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Battleships</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id='game-info'>
+        <p>Turn: <span id="turn"></span></p>
+        <p>info: <span id="info"></span></p>
+    </div>
+
+    <div id="gameboard-container">
+
+    </div>
+
+    <div class="option-container">
+        <div id="0" class="destroyer-prev destroyer" draggable="true"></div>
+        <div id="1" class="submarine-prev submarine" draggable="true"></div>
+        <div id="2" class="cruiser-prev cruiser" draggable="true"></div>
+        <div id="3" class="battleship-prev battleship" draggable="true"></div>
+        <div id="4" class="carrier-prev carrier" draggable="true"></div>
+    </div>
+
+    <button id="flip-btn">Flip</button>
+    <button id="start-btn">START</button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

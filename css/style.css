@@ -1,0 +1,100 @@
+.option-container {
+  width: 500px;
+  height: 60px;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+}
+
+.destroyer {
+  background-color: rgb(87, 14, 14);
+}
+
+.destroyer-prev {
+  width: 20px;
+  height: 10px;
+  margin: 3px;
+}
+
+.submarine {
+  background-color: green;
+}
+
+.submarine-prev {
+  width: 30px;
+  height: 10px;
+  margin: 3px;
+}
+
+.cruiser {
+  background-color: purple;
+}
+
+.cruiser-prev {
+  width: 30px;
+  height: 10px;
+  margin: 3px;
+}
+
+.battleship {
+  background-color: orange;
+}
+
+.battleship-prev {
+  width: 40px;
+  height: 10px;
+  margin: 3px;
+}
+
+.carrier {
+  background-color: blue;
+}
+
+.carrier-prev {
+  width: 50px;
+  height: 10px;
+  margin: 3px;
+}
+
+#gameboard-container {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gameboard {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.block {
+  width: 20px;
+  height: 20px;
+  border: 1px solid;
+  box-sizing: border-box;
+}
+
+.hover {
+  background-color: grey;
+}
+
+.boom {
+  background-color: red !important;
+}
+
+.empty {
+  background-color: grey !important;
+}
+
+#computer .destroyer,
+#computer .submarine,
+#computer .cruiser,
+#computer .carrier,
+#computer .battleship {
+  background-color: pink;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLFlBQUE7RUFDQSxZQUFBO0VBQ0Esd0JBQUE7RUFDQSxhQUFBO0VBQ0EsbUJBQUE7QUNDSjs7QURFQTtFQUNJLGlDQUFBO0FDQ0o7O0FERUE7RUFDSSxXQUFBO0VBQ0EsWUFBQTtFQUNBLFdBQUE7QUNDSjs7QURFQTtFQUNJLHVCQUFBO0FDQ0o7O0FERUE7RUFDSSxXQUFBO0VBQ0EsWUFBQTtFQUNBLFdBQUE7QUNDSjs7QURFQTtFQUNJLHdCQUFBO0FDQ0o7O0FERUE7RUFDSSxXQUFBO0VBQ0EsWUFBQTtFQUNBLFdBQUE7QUNDSjs7QURFQTtFQUNJLHdCQUFBO0FDQ0o7O0FERUE7RUFDSSxXQUFBO0VBQ0EsWUFBQTtFQUNBLFdBQUE7QUNDSjs7QURFQTtFQUNJLHNCQUFBO0FDQ0o7O0FERUE7RUFDSSxXQUFBO0VBQ0EsWUFBQTtFQUNBLFdBQUE7QUNDSjs7QURFQTtFQUNJLFlBQUE7RUFDQSxhQUFBO0VBQ0EsOEJBQUE7QUNDSjs7QURFQTtFQUNJLFlBQUE7RUFDQSxhQUFBO0VBQ0EsWUFBQTtFQUNBLGFBQUE7RUFDQSxlQUFBO0FDQ0o7O0FERUE7RUFDSSxXQUFBO0VBQ0EsWUFBQTtFQUNBLGlCQUFBO0VBQ0Esc0JBQUE7QUNDSjs7QURFQTtFQUNJLHNCQUFBO0FDQ0o7O0FERUE7RUFDSSxnQ0FBQTtBQ0NKOztBREVBO0VBQ0ksaUNBQUE7QUNDSjs7QURFQTs7Ozs7RUFLSSxzQkFBQTtBQ0NKIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
