@@ -25,6 +25,7 @@ function createBoard (color, user) {
     gameboard.style.backgroundColor = color;
     gameboard.id = user;
 
+
     for(let i=0; i<width*width; i++) {
         const block = document.createElement('div');
         block.classList.add('block');
@@ -35,8 +36,8 @@ function createBoard (color, user) {
     gameboardCont.append(gameboard);
 }
 
-createBoard('yellow', 'player');
 createBoard('pink', 'computer') ;
+createBoard('yellow', 'player');
 
 // Creating Ships
 class Ship {
